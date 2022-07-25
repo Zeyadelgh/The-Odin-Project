@@ -2,17 +2,23 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="rel" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>01-css-methods</title>
+    <style>
+      p {
+        background-color: green;
+        color: white;
+        font-size: 18px;
+      }
+    </style>
   </head>
   <body>
-    <div>
-      <h1>
-        a red background, white text, a font size of 32px, center aligned, and
-        bold
-      </h1>
-    </div>
-    <p>a green background, a white text, and a font size of 18px</p>
-    <button>an orange background and a font size of 18px</button>
+    <div>Style me via the external method!</div>
+    <p>I would like to be styled with the internal method, please</p>
+    <button style="background-color: orange; font-size: 18px">
+      Inline Method
+    </button>
+    <p class="blue" id="anotherBlue">Testing chaining selectors</p>
+    <p class="blue" id="anotherBlue">Testing another blue text</p>
   </body>
 </html>
