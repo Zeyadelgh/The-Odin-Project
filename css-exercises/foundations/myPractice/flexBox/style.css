@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+.flex-container {
+    display: flex;
+    background-color: aqua;
+    height: 500px;
+    width: 500px;
+}
+
+.flex-container div {
+    background-color: blanchedalmond;
+    border: 4px dotted green;
+    width: 200px;
+    height: 250px;
+    flex: 1 1 auto ;
+    margin: auto;
+    border-radius: 125px;
+    padding-top: 80px;
+}
+
+.text {
+    text-align: center;
+}
+
